@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Bitter-Var, Roboto-reg, "Courier New", 'Courier New', Courier, monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+.inp-out {
+  font-family: digital-7;
+}
+
+.calc-body {
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  row-gap: 5%;
+}
+
+.inp-out-container {
+  width: 70%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.inp-out {
+  width: 100%;
+  height: 100%;
+}
+
+.all-btns-container {
+  width: 70%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3%;
+}
+
+.advanced-btns-container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 5%;
+}
+
+.main-numpad {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly; /* Remove */
+}
+
+.main-numpad button {
+  width: 100%;
+  height: 100%;
+}
+
+.digit-btns-container {
+  width: 75%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+}
+.op-btns-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 80%;
+}
+
+.row button,
+.advanced-btn {
+  width: 33.3%;
+  height: 100%;
+}
+
+.op-btn {
+  width: 100%;
+  height: 20%;
+}
+
+.advanced-btn {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: digital-7;
+  src: url(Fonts/digital-7.ttf);
+}
+
+@font-face {
+  font-family: Roboto-reg;
+  src: url(Fonts/ROBOTO-REGULAR.TTF);
+}
+
+@font-face {
+  font-family: Bitter-Var;
+  src: url(Fonts/Bitter-VariableFont_wght.ttf);
+}

@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="Images/calculator.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
     <title>Calculator</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Calculator</h1>
-    
-</body>
+    <div class="calc-body">
+      <div class="inp-out-container">
+        <label for="inp-out"></label>
+        <input
+          type="text"
+          class="inp-out"
+          aria-placeholder="input calculation query"
+          placeholder="1 + 2"
+        />
+      </div>
+      <div class="all-btns-container">
+        <div class="advanced-btns-container">
+          <button class="advanced-btn">√</button>
+          <button class="advanced-btn">x<sup>2</sup></button>
+          <button class="advanced-btn">Mod</button>
+        </div>
+        <div class="main-numpad">
+          <div class="digit-btns-container">
+            <div class="row 1">
+              <button class="extras-btn-top">C</button>
+              <button class="extras-btn-top">+/-</button>
+              <button class="extras-btn-top">()</button>
+            </div>
+            <div class="row 2">
+              <button class="digit-btn">7</button>
+              <button class="digit-btn">8</button>
+              <button class="digit-btn">9</button>
+            </div>
+            <div class="row 3">
+              <button class="digit-btn">4</button>
+              <button class="digit-btn">5</button>
+              <button class="digit-btn">6</button>
+            </div>
+            <div class="row 4">
+              <button class="digit-btn">1</button>
+              <button class="digit-btn">2</button>
+              <button class="digit-btn">3</button>
+            </div>
+            <div class="row 5">
+              <button class="extras-btn-bottom">.</button>
+              <button class="digit-btn">0</button>
+              <button class="extras-btn-bottom"></button>
+            </div>
+          </div>
+          <div class="op-btns-container">
+            <button class="op-btn">+</button>
+            <button class="op-btn">-</button>
+            <button class="op-btn">*</button>
+            <button class="op-btn">/</button>
+            <button class="op-btn">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

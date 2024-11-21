@@ -1,5 +1,7 @@
-function operate(num1, operator, num2) {
-    const op = operator;
+function operate(arr) {
+    const op = arr[1];
+    const num1 = arr[0];
+    const num2 = arr[2];
     const methods = {
         '+': () => {
             return num1 + num2;},
@@ -11,10 +13,10 @@ function operate(num1, operator, num2) {
             return num1 / num2;},
         '**': () => {
             return num1 ** num2;},
-        '{\displaystyle {\sqrt {x}},}': () => {
+        '√': () => {
             return Math.sqrt(num1)},
     };
    return methods[op]();
 }
 
-console.log(operate(36, '{\displaystyle {\sqrt {x}},}', 2));
+console.log(operate([36, '√', 2]));
