@@ -95,6 +95,10 @@ h1,
   height: 100%;
 }
 
+.double {
+  flex: 2;
+}
+
 .op-btn {
   width: 100%;
   height: 20%;
