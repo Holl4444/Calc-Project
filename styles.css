@@ -69,6 +69,8 @@ button {
   align-items: center;
   font-size: 3vmin;
   border-width: 0.1em;
+  border-radius: 1vw;
+  background-color: #cad8e4;
 }
 
 .advanced-btns-container {
