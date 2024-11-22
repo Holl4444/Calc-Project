@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Bitter-Var, Roboto-reg, "Courier New", "Courier New", Courier, monospace;
+  font-family: Bitter-Var, Roboto-reg, "Courier New", "Courier New", Courier,
+    monospace;
 }
 
 body {
@@ -38,6 +39,8 @@ h1,
 .inp-out {
   width: 100%;
   height: 100%;
+  font-size: 1.5em;
+  padding: 1%;
 }
 
 .all-btns-container {
@@ -46,6 +49,7 @@ h1,
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   row-gap: 3%;
 }
 
@@ -72,6 +76,7 @@ sup {
   width: 100%;
   height: 90%;
   display: flex;
+  column-gap: 1%;
 }
 
 .digit-btns-container {
@@ -79,6 +84,7 @@ sup {
   height: 80%;
   display: flex;
   flex-direction: column;
+  row-gap: 1%;
 }
 
 .row {
@@ -86,12 +92,14 @@ sup {
   justify-content: center;
   width: 100%;
   height: 20%;
+  column-gap: 1%;
 }
 .op-btns-container {
   display: flex;
   flex-direction: column;
   width: 25%;
   height: 80%;
+  row-gap: 1%;
 }
 
 .row button,
