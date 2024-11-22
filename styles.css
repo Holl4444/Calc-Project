@@ -55,6 +55,7 @@ h1,
   align-items: center;
   justify-content: center;
   row-gap: 2%;
+  margin-top: 8%;
 }
 
 button {
@@ -62,6 +63,7 @@ button {
   justify-content: center;
   align-items: center;
   font-size: 3vmin;
+  border-width: 0.1em;
 }
 
 .advanced-btns-container {
