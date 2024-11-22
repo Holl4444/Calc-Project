@@ -26,8 +26,10 @@ h1,
   flex-direction: column;
   align-items: center;
   border: 1vw solid black;
+  border-radius: 15% 15% 5% 5%;
   row-gap: 5%;
   overflow: hidden;
+  background-color: slategray;
 }
 
 .inp-out-container {
@@ -45,6 +47,9 @@ h1,
   font-size: 1.5em;
   padding: 1%;
   font-size: 5vmin;
+  background-color: aliceblue;
+  font-weight: bold;
+  border-width: 0.2em;
 }
 
 .all-btns-container {
