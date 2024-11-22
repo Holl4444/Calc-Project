@@ -16,6 +16,7 @@ h1,
 .inp-out {
   font-family: digital-7;
   font-size: 7vmin;
+  margin: 2%;
 }
 
 .calc-body {
@@ -24,8 +25,9 @@ h1,
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid;
+  border: 2px solid;
   row-gap: 5%;
+  overflow: hidden;
 }
 
 .inp-out-container {
