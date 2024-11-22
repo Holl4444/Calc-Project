@@ -18,8 +18,8 @@ h1,
 }
 
 .calc-body {
-  min-height: 80vh;
-  min-width: 50vw;
+  height: 80vh;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,22 +41,24 @@ h1,
   height: 100%;
   font-size: 1.5em;
   padding: 1%;
+  font-size: 5vmin;
 }
 
 .all-btns-container {
-  width: 70%;
+  width: 75%;
   height: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  row-gap: 3%;
+  row-gap: 2%;
 }
 
 button {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 3vmin;
 }
 
 .advanced-btns-container {
@@ -64,7 +66,7 @@ button {
   height: 10%;
   display: flex;
   justify-content: space-evenly;
-  column-gap: 5%;
+  column-gap: 1%;
 }
 
 sup {
